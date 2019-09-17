@@ -62,11 +62,17 @@
         display: block;
     }
     .home__nav--ol{
+        margin-top: 1rem;
         font-size: 32px;
+        list-style:initial;
         li{
             margin: 0 auto 1rem;
-            width: 49%;
+            width: 70%;
         }
+    }
+    .home-title-aniamtion{
+        display: block;
+        min-height:6.5rem;
     }
 
   }
