@@ -48,16 +48,18 @@
     .home {
       padding: 1vh 1vw;
       min-height: 75vh;
-      br {
-        display: none;
-      }
+    
       &__title {
         font-size: 3.125rem;
         line-height: 1;
+        margin-top: 2vh;
       }
     }
     .home__title--bold {
       font-size: 2.75rem;
+    }
+    .home__title--small{
+        display: block;
     }
     .home__nav--ol{
         font-size: 32px;

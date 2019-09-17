@@ -2,7 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 import HomePageNav from "../components/HomePageNav"
 import Seo from "../components/seo"
-import Typer from '../components/Typer'
+import Typer from "../components/Typer"
 const dataText = [
   "Front-End Developer",
   "Full-Stack Developer",
@@ -19,13 +19,13 @@ class IndexPage extends React.Component {
           <h1 className="home__title">
             Shalom, <br />
             I'm Naaman
+            <br className="mobile" />
             <small className="home__title--small">
-              {" "}
               (my friends call me nemo)
             </small>
             <br />
             <span className="home__title--bold home-title-aniamtion">
-              <Typer dataText={dataText}/>
+              <Typer dataText={dataText} />
             </span>
           </h1>
           <HomePageNav />
