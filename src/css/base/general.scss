@@ -1,0 +1,32 @@
+html {
+  font-size: 1.1vw
+}
+@media (min-width: 1440px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+
+
+body{
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color:$black;
+}
+h1{
+  font-family: 'Raleway', sans-serif;
+  color:$black;
+  font-size: 45px;
+  font-weight: 900;
+  line-height: 53px;
+}
+
+
+.a{
+  text-decoration: underline;
+  color:$red
+}
+
+

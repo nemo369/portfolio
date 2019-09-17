@@ -1,0 +1,17 @@
+$baseFontSize : 16;
+$black: #1D1D1D;
+$white:#F2F2F2;
+$gray:rgba(242, 242, 242, 0.712);
+$red:  #cb5858;
+$sidebarwidth:100px;
+$mobile: '(max-width: 960px),(max-device-width: 760px),(orientation: portrait)';
+html {
+  font-size: $baseFontSize;
+  font-size: 1.11vw;
+}
+body{
+  font-size: px($baseFontSize);
+}
+@function rem($pixels){
+  @return $pixels / $baseFontSize + rem;
+}

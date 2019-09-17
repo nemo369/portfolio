@@ -1,0 +1,35 @@
+// Base: animations, base, typography, and utilies.
+@import './base/var.scss';
+@import './base/reset.scss';
+@import './base/utilites.scss';
+@import './base/general';
+@import './base/fonts.scss';
+@import './base/content.scss';
+
+
+// Layout: Header, footer, grid, navigation
+@import './layout/sidebar.scss';
+@import './layout/main.scss';
+// Pages: Have a single scss for each specific page
+
+@import './pages/home.scss';
+@import './pages/contact.scss';
+@import './pages/about.scss';
+@import './pages/projects.scss';
+@import './pages/project.scss';
+@import './pages/gallery.scss';
+@import './pages/404.scss';
+@import './pages/mainNav.scss';
+
+// Vendor: handles 3rd party css
+
+// Components: have a single scss file for each individual component
+
+@import './components/hambureger.scss';
+@import './components/tag.scss';
+@import './components/blink.scss';
+@import './components/logo.scss';
+@import './components/aboutThisSite.scss';
+
+@import './mobile.scss'
+

@@ -1,0 +1,24 @@
+.blink {
+  animation: blink 1s infinite;
+}
+// .home-title-aniamtion {
+//     display: inline-block;
+//     width: 100%;
+//     overflow: hidden;
+//     margin: 0 auto;
+//     animation: type 4s steps(60, end); 
+//     animation-delay: 1.1s;
+//     animation-fill-mode: backwards;
+//     text-align: left;
+
+// }
+@keyframes blink {
+  100% {
+    opacity: 0;
+  }
+}
+// @keyframes type {
+//   from {
+//     width: 0;
+//   }
+// }

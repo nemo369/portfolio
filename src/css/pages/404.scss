@@ -1,0 +1,11 @@
+.page-404{
+    padding: 14px rem(180) 1vh 3vw;
+    max-width: 960px;
+}
+
+@media (max-width: 960px), (max-device-width: 760px), (orientation: portrait) {
+    .page-404 {
+      padding: 1vh 1vw;
+    }
+  }
+  

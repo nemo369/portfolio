@@ -1,0 +1,66 @@
+.contact {
+  padding: 39px 161px;
+  &__text {
+    margin-top: 75px;
+  }
+  &__socials {
+    max-width: 640px;
+    margin: 1em auto;
+    justify-content: flex-start;
+    height: 35px;
+    overflow: hidden;
+  }
+  &__social {
+    margin-right: 1em;
+    text-decoration: underline;
+    &:hover {
+      color: $red;
+      path {
+        fill: $red;
+      }
+    }
+    span {
+      display: inline-block;
+      height: 100%;
+      width: 25px;
+      margin: 0 0em -5px 0px;
+    }
+    svg {
+      height: 100%;
+    }
+  }
+}
+.contact__email {
+  span {
+    display: inline-block;
+    height: 100%;
+    width: 25px;
+    margin: 0 3px;
+  }
+  a:hover {
+    color: $red;
+    path {
+      fill: $red;
+    }
+  }
+}
+
+.contact__social {
+  &--instagram path {
+    fill: #405de6;
+  }
+  &--twitter path {
+    fill: #1da1f2;
+  }
+  &--linkedin path {
+    fill: #0077b5;
+  }
+  &--github path {
+    fill: #f4cbb2;
+  }
+}
+@media (max-width: 960px), (max-device-width: 760px), (orientation: portrait) {
+  .contact {
+    padding: 1vh 1vw;
+  }
+}

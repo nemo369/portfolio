@@ -1,0 +1,25 @@
+.nemo--aniamtion {
+//   animation: bounce linear 0.5s infinite, rotate ease 0.8s forwards;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(-45deg);
+  }
+}
+@keyframes bounce {
+  0% {
+    transform: translate3d(0px, 0px, 0);
+  }
+  50% {
+    transform: translate3d(0px, -4px, 0);
+  }
+  100% {
+    transform: translate3d(0px, 0px, 0);
+  }
+}
+@keyframes fumes2 {
+  50% {
+    transform: scale(1.1);
+  }
+}
