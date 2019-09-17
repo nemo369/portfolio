@@ -11,7 +11,7 @@ const ProjectBox = ({ props }) => {
  
   return (
     <li className="projects__li">
-      <Link to={`/projects/${node.fields.slug}`}>
+      {/* <Link to={`/projects/${node.fields.slug}`}> */}
         <div className="devices">
           <div className="computer">
             <img src={computer} alt="computer" className="computer__asset" />
@@ -36,7 +36,7 @@ const ProjectBox = ({ props }) => {
             />}
           </div>
         </div>
-      </Link>
+      {/* </Link> */}
       <h2>{frontmatter.title}</h2>
       <p>{frontmatter.subtitle}</p>
       <ul className="project__tags flex">
