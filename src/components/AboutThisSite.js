@@ -25,7 +25,7 @@ class AboutThisSite extends React.Component {
           <a href="https://www.gatsbyjs.org/" target="_blank" rel="noopener noreferrer">
             Github
           </a>
-          . All the code, photos and desigen is open source and you are more
+          . All the code, photos and design are open source so you are more
           then wellcome to use. I used React on top of{" "}
           <a href="https://www.gatsbyjs.org/" target="_blank" rel="noopener noreferrer">
             Gatsby JS
