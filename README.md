@@ -1,4 +1,4 @@
-## Nemo website by Gatsby
+## Nemo's website by Gatsby
 
 This project is avilabe in [naamanfrenkel.dev](http://naamanfrenkel.dev).
 Using netlify.

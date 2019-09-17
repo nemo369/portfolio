@@ -1,11 +1,11 @@
 import React from "react"
 import Layout from "../components/layout"
-import { graphql } from "gatsby"
+import { graphql ,Link} from "gatsby"
 import Seo from "../components/seo"
 import Github from "../assets/Github"
 import Img from "gatsby-image"
 
-const Project = ({ data }) => {
+const Project = ({ data,context }) => {
   const post = data.markdownRemark;
   return (
     <Layout>
@@ -55,7 +55,7 @@ const Project = ({ data }) => {
               </li>
             )
           })}
-          <li className="tag"style={{marginLeft:'auto'}}><button onClick={this.context.router.goBack}>Back</button></li>
+          <li className="tag"style={{marginLeft:'auto'}}><Link to='/projects'>Back</Link></li>
         </ul>
       </article>
     </Layout>
