@@ -41,7 +41,7 @@ const GalleryPage = () => {
             to take photos in my spare time
           </h1>
           <p className="content">
-            You can find some more of my photos
+            You can find more of my photos
             <span role="img" aria-label="camera">
              📷 on{" "}
              </span>
@@ -52,13 +52,13 @@ const GalleryPage = () => {
             <a href="https://unsplash.com/@nemo369" target="_blank" rel="noopener noreferrer">
               Unspalsh
             </a>{" "}
-            . All photos published by me can be used for free 
+            . <br/>All photos published by me can be used for free 
             <span role="img" aria-label="heart">
             🌵
             </span>
-            . You can use them
-            for commercial and noncommercial purposes. Although a credit to my
-            webstiet is appreciated when possible 
+            .<br/> You can use them
+            for commercial and noncommercial purposes, although a credit to my
+            website is appreciated when possible 
             <span role="img" aria-label="heart">            
             🎁
             </span>

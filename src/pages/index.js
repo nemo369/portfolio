@@ -6,9 +6,9 @@ import Typer from "../components/Typer"
 const dataText = [
   "Front-End Developer",
   "Full-Stack Developer",
-  "WordPress expert",
+  "WordPress Expert",
   "React Professional",
-  "CSS ninja",
+  "CSS Ninja",
 ]
 class IndexPage extends React.Component {
   render() {

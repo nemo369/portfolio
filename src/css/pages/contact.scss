@@ -59,6 +59,17 @@
     fill: #f4cbb2;
   }
 }
+.contact-page-scoials{
+  flex-direction: column;
+  list-style: decimal;
+  height: auto;
+  margin: 1em 0;
+  align-items: flex-start;
+  .contact__social{
+    padding-left: 1em;
+    margin-bottom: 1rem;
+  }
+}
 @media (max-width: 960px), (max-device-width: 760px), (orientation: portrait) {
   .contact {
     padding: 1vh 1vw;

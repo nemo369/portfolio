@@ -13,11 +13,11 @@ const ContactPage = () => {
         <h1 className="contact__title">Contact Me</h1>
 
         <div className="contact__text">
-          You can find me in social media:
+          You can find me on social media:
               <Socials class="contact-page-scoials"/>
 
           <div className="contact__email">
-            By mail:{" "}
+            Or by mail:{" "}
             <a
               target="_blank"
               rel="noopener noreferrer"
@@ -26,7 +26,7 @@ const ContactPage = () => {
               <span
                 dangerouslySetInnerHTML={{ __html: getSvg("email") }}
               ></span>
-              @nafrenkel
+              nafrenkel@gmail.com
             </a>
           </div>
         </div>

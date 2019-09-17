@@ -4,6 +4,11 @@
   height: 43px;
   color: #fff;
   font-size: 0;
+  &:hover{
+    .hambureger__span--2{
+      background: $red;
+    }
+  }
   &__span {
     position: absolute;
     width: 100%;
