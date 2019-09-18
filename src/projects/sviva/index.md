@@ -1,6 +1,6 @@
 ---
-title: "Environmental calendar"
-subtitle: "An all encompassing website including a custom WordPress theme"
+title: "Environmental Calendar"
+subtitle: "An all encompassing website including a custom WordPress theme relying greatly on Vanilla JavaScript"
 project: "Life and Environment -Environmental calendar"
 client: "Life and Environmen"
 tags: ["WordPress","JavaScript","CSS","CMS"]

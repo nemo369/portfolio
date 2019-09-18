@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import resume from "../assets/NaamanFrenkelCV.pdf"
 
 const navs = [
-  { to: "/projects/", name: "Works" },
+  { to: "/projects/", name: "Work" },
   { to: "/about/", name: "About" },
   { to: "/contact/", name: "Contact" },
   { to: "/gallery/", name: "Gallery" },

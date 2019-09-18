@@ -1,6 +1,6 @@
 ---
 title: "State of the art video platform"
-subtitle: "Tailor made a unique video based tutorials include paid membership"
+subtitle: "Tailor made, unique video based tutorials, which include paid membership"
 project: "hands-on.alonshabo"
 client: "RSVP"
 tags: ["CSS","JavaScript","API","WordPress","E-Commerce"]

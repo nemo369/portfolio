@@ -1,6 +1,6 @@
 ---
 title: "MISTER BITCOIN"
-subtitle: "This Digital Wallet is created in react framework while using MOBX as a Flux management"
+subtitle: "This digital wallet is created in react framework while using MOBX as a Flux management"
 project: "MISTER BITCOIN"
 client: "Open Source"
 tags: ["React","State Mangment"]

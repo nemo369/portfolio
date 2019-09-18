@@ -31,8 +31,7 @@
         cursor: pointer;
         
     }
-    &.open,
-    &:hover {
+    &.open {
       clip-path: circle(100% at 50% 50%);
       svg path{
           fill:$white;

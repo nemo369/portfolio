@@ -1,6 +1,6 @@
 ---
-title: "final bootcamp project"
-subtitle: "This PWA is a full E2E App built in VUE JS, framework and NODE JS server. MongoDB as the database"
+title: "Final Bootcamp Project"
+subtitle: "This PWA is a full E2E App built in VUE JS framework, and NODE JS server. With MongoDB as the database"
 project: "BOOK LAB"
 client: "Coding Academy"
 tags: ["Vue","JavaSCript","Node","MongoDB", "State Mangment"]

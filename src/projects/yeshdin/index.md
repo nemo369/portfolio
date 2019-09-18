@@ -1,6 +1,6 @@
 ---
-title: "LEGAL DATABASE"
-subtitle: "Using Ajax and WP API in the frontend and flavored PHP for the backend"
+title: "Legal Database"
+subtitle: "Using Ajax and WordPress API in the frontend and flavored PHP for the backend"
 project: "Yesh-Din - LEGAL DATABASE"
 client: "RSVP"
 tags: ["PHP","JavaScript","WordPress"]

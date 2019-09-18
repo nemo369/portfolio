@@ -1,6 +1,6 @@
 ---
 title: "LANDINGS PAGE"
-subtitle: "This API based project have more then 700 visitors a day. The website is build on Anguler and PHP and have a big emphasis on SEO"
+subtitle: "This API based project has more then 700 visitors a day. The website is build on Anguler and PHP and has a big emphasis on SEO"
 project: "LANDINGS PAGE"
 client: "RSVP"
 tags: ["Anguler","API","JavaScript","CSS","MongoDB"]
