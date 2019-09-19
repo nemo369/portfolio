@@ -7,7 +7,6 @@ const navs = [
   { to: "/about/", name: "About" },
   { to: "/contact/", name: "Contact" },
   { to: "/gallery/", name: "Gallery" },
-  { to: {resume}, name: "CV" },
 ]
 
 const ListLink = props => (
@@ -20,9 +19,18 @@ const HomePageNav = () => {
   return (
     <nav className="home__nav">
       <ol className="flex home__nav--ol">
-      {navs.map((nav, key) => {
-          return <ListLink  to={nav.to} key={key}>{nav.name}</ListLink>
+        {navs.map((nav, key) => {
+          return (
+            <ListLink to={nav.to} key={key}>
+              {nav.name}
+            </ListLink>
+          )
         })}
+        <li>
+          <a href={resume} download="Naaman Frenkel">
+            CV
+          </a>
+        </li>
       </ol>
     </nav>
   )
