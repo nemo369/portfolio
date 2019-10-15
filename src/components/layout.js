@@ -37,6 +37,7 @@ class Layout extends React.Component {
     return (
       <div className="sticky-footer">
         <Helmet>
+        <meta name="google-site-verification" content="W2DLMcFpQmWyulhOxDEDg-c60KRyc3u6bgziblrwFcs" />
           <link
             href="https://fonts.googleapis.com/css?family=Merriweather:400,700,900|Raleway:400,400i,900i,900&display=swap"
             rel="stylesheet"
