@@ -82,6 +82,16 @@ module.exports = {
         link: "https://instagram.com/naaman_f",
         user: "naaman_f",
       },
+      {
+        name: "codepen",
+        link: "https://codepen.io/nemo369",
+        user: "nemo369",
+      },
+      {
+        name: "stackoverflow",
+        link: "https://stackoverflow.com/users/9333307/nemo",
+        user: "nemo",
+      },
     ],
   },
   plugins: [

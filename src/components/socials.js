@@ -7,8 +7,8 @@ const Social = props => (
     className={`contact__social contact__social--${props.name}`}
   >
     <a target="_blank" rel="noopener noreferrer" href={props.link}>
-      <span dangerouslySetInnerHTML={{ __html: getSvg(props.name) }}></span>@
-      {props.user}
+      <span dangerouslySetInnerHTML={{ __html: getSvg(props.name) }}  className="contact__icon"></span>
+      <span className="contact__name">&nbsp;@{props.user}</span>
     </a>
   </li>
 )

@@ -1,5 +1,15 @@
-.nemo--aniamtion {
-//   animation: bounce linear 0.5s infinite, rotate ease 0.8s forwards;
+.nemo-logo {
+  transition: transform 0.5s;
+  transition-delay: 0.3s;
+  transform-origin: 70px 17px;
+}
+
+.nemo-logo:hover {
+  transform: rotate(-45deg) translateY(-50%);
+  #fire {
+    opacity: 0;
+    transform: translateY(-10%);
+  }
 }
 
 @keyframes rotate {
@@ -21,5 +31,22 @@
 @keyframes fumes2 {
   50% {
     transform: scale(1.1);
+  }
+}
+.logo {
+  .st0 {
+    fill: #cb5858;
+  }
+  .st1 {
+    fill: #fff;
+    stroke: #000;
+    stroke-width: 0.25;
+    stroke-miterlimit: 10;
+  }
+  .st2 {
+    fill: #1d1d1d;
+  }
+  #fire {
+    transition: opacity 0.2s;
   }
 }

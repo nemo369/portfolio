@@ -4,7 +4,6 @@
     margin-top: 75px;
   }
   &__socials {
-    max-width: 640px;
     margin: 1em auto;
     justify-content: flex-start;
     height: 35px;
@@ -19,15 +18,15 @@
         fill: $red;
       }
     }
-    span {
-      display: inline-block;
-      height: 100%;
-      width: 25px;
-      margin: 0 0em -5px 0px;
-    }
-    svg {
-      height: 100%;
-    }
+  }
+  &__icon {
+    display: inline-block;
+    height: 100%;
+    width: 25px;
+    margin: 0 0em -5px 0px;
+  }
+  svg {
+    height: 100%;
   }
 }
 .contact__email {
@@ -59,13 +58,13 @@
     fill: #f4cbb2;
   }
 }
-.contact-page-scoials{
+.contact-page-scoials {
   flex-direction: column;
   list-style: decimal;
   height: auto;
   margin: 1em 0;
   align-items: flex-start;
-  .contact__social{
+  .contact__social {
     padding-left: 1em;
     margin-bottom: 1rem;
   }

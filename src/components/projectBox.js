@@ -1,9 +1,8 @@
+import Img from "gatsby-image"
 import React from "react"
-import { Link } from "gatsby"
 import computer from "../../static/computer.png"
 import phone from "../../static/phone.png"
 import Github from "../assets/Github"
-import Img from "gatsby-image"
 
 const ProjectBox = ({ props }) => {
   const { node } = props
