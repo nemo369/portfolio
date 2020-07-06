@@ -19,6 +19,7 @@ function Seo({ description, lang, meta, title }) {
             title
             description
             author
+            siteUrl
           }
         }
       }
@@ -75,7 +76,7 @@ function Seo({ description, lang, meta, title }) {
 Seo.defaultProps = {
   lang: `en`,
   meta: [],
-  description: ``,
+  description: `Hey It's Naaamn, I am a Frontend Web Developer with more than 3 years experience in the latest web technologies`,
 }
 
 Seo.propTypes = {

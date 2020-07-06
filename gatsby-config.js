@@ -60,7 +60,8 @@ module.exports = {
       "CSS ninja",
     ],
     author: `Naaman Frenkel`,
-    description: "Front End Developer",
+    siteUrl:"https://naamanfrenkel.dev/",
+    description: "Hey It's Naaamn, I am a Frontend Web Developer with more than 3 years experience in the latest web technologies",
     socials: [
       {
         name: "github",
@@ -102,6 +103,6 @@ module.exports = {
     sourceFilesystemImages,
     sourceFilesystem,
     gatsbyTransformerRemark,
-    gatsbyPluginGoogleAnalytic
+    // gatsbyPluginGoogleAnalytic
   ],
 }
