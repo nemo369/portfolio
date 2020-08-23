@@ -1,6 +1,6 @@
 ---
 title: "Ths 90's are back"
-subtitle: "This fun side project start as a joke during Covid-19 days. I used Next JS for static and server side rendering.
+subtitle: "This fun side project started as a joke during Covid-19 days. I used Next JS for static and server side rendering.
 The API was built on top of Strapi using MongoDB and Node JS. I desigend, devleoped and maintain"
 project: "Hitamn"
 client: "Nemo"
@@ -11,5 +11,5 @@ image: "./computer.jpg"
 image_phone: "./phone.jpg"
 ---
 
-This fun side project start as a joke during Covid-19 days. I used Next JS for static and server side rendering.
+This fun side project started as a joke during Covid-19 days. I used Next JS for static and server side rendering.
 The API was built on top of Strapi using MongoDB and Node JS.
