@@ -15,7 +15,7 @@ class AboutThisSite extends React.Component {
 
   render() {
     return (
-      <div
+      <button
         className={`about-this  ${this.state.isOpen ? "open" : "close"}`}
         onClick={() => this.toglleOpen()}
       >
@@ -49,7 +49,7 @@ class AboutThisSite extends React.Component {
           </a>
         </div>
         <Info />
-      </div>
+      </button>
     )
   }
 }

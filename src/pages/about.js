@@ -12,9 +12,9 @@ const AboutPage = () => {
         <h1>About</h1>
         <div className="content about__contnet">
           <p>
-            I am a Frontend Web Developer with more than 2 years experience in
+            I am a Frontend Web Developer with more than 3 years experience in
             the latest web technologies. My expertise ranges from JavaScript(ES6)
-            frontend libraries such as <em>React, Vue and Angular</em>, all the way to
+            frontend libraries such as <em>Angular, Vue and React</em>, all the way to
             pixel perfect development based on <em>CSS 3&HTML 5</em>. As a self
             learner who is always on top of the latest technologies and
             innovations, I also do backend applications based on NodeJS and PHP, which results in beautiful full scale web

@@ -60,7 +60,8 @@ module.exports = {
       "CSS ninja",
     ],
     author: `Naaman Frenkel`,
-    description: "Front End Developer",
+    siteUrl:"https://naamanfrenkel.dev/",
+    description: "Hey It's Naaamn, I am a Frontend Web Developer with more than 3 years experience in the latest web technologies",
     socials: [
       {
         name: "github",
@@ -82,6 +83,16 @@ module.exports = {
         link: "https://instagram.com/naaman_f",
         user: "naaman_f",
       },
+      {
+        name: "codepen",
+        link: "https://codepen.io/nemo369",
+        user: "nemo369",
+      },
+      {
+        name: "stackoverflow",
+        link: "https://stackoverflow.com/users/9333307/nemo",
+        user: "nemo",
+      },
     ],
   },
   plugins: [
@@ -92,6 +103,6 @@ module.exports = {
     sourceFilesystemImages,
     sourceFilesystem,
     gatsbyTransformerRemark,
-    gatsbyPluginGoogleAnalytic
+    // gatsbyPluginGoogleAnalytic
   ],
 }

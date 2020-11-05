@@ -4,12 +4,13 @@ import HomePageNav from "../components/HomePageNav"
 import Seo from "../components/seo"
 import Typer from "../components/Typer"
 const dataText = [
-  "Front-End Developer",
+  "Front-End Architect",
   "Full-Stack Developer",
   "WordPress Expert",
   "React Professional",
+  "Senior Angular Engineer",
   "CSS Ninja",
-]
+].sort(function() { return 0.5 - Math.random() })
 class IndexPage extends React.Component {
   render() {
     return (

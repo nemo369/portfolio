@@ -5,8 +5,8 @@ Using netlify.
 
 ## About Me
 
-I am a Frontend Web Developer with more than 2 years experience in the latest web technologies.
-My expertise ranges from *JavaScript(ES6)* frontend libraries such as *React, Vue and Angular*, all the way to pixel perfect development based on CSS 3&HTML 5.
+I am a Frontend Web Developer with more than 3 experience in the latest web technologies.
+My expertise ranges from *JavaScript(ES6)* frontend libraries such as *Angular, Vue and React*, all the way to pixel perfect development based on CSS 3&HTML 5.
 As a self learner who is always on top of the latest technologies and innovations, I also do backend applications based on NodeJS and PHP, which results in beautiful full scale web apps.
 
 ## About this project

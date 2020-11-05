@@ -49,7 +49,7 @@ const BlogPage = () => {
 
   return (
     <Layout>
-      <Seo title="My Procjets" />
+      <Seo title="My projects" />
       <article className="projects">
         <h1>Things That I Built</h1>
         <ol className="projects__list">
