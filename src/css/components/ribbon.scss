@@ -1,0 +1,24 @@
+.ribbon {
+    color: #fff;
+    background-color: $red;
+    padding: 12px;
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+    font-family: Courier, monospaced;
+    // text-transform: uppercase;
+    // border: 2px transparent solid;
+    box-shadow: 0 10px 30px -10px gray;
+    position: absolute;
+    top: 140px;
+    right: 24px;
+    display: inline-block;
+    transform: rotate(30deg);
+}
+@media (max-width: 960px), (max-device-width: 760px), (orientation: portrait) {
+    .ribbon {
+        transform: none;
+        position: static;
+        font-size: 12px;
+    }
+}

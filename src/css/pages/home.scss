@@ -4,6 +4,8 @@
     flex-direction: column;
     min-height: 100vh;
     justify-content: space-between;
+    position: relative;
+
 }
 
 .home__title {
@@ -11,7 +13,7 @@
     font-size: rem(125);
     line-height: rem(159);
     font-weight: 300;
-
+    position: relative;
     &--small {
         font-size: 16px;
         font-weight: 900;

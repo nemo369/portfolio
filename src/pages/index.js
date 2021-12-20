@@ -10,13 +10,18 @@ const dataText = [
   "React Professional",
   "Senior Angular Engineer",
   "CSS Ninja",
-].sort(function() { return 0.5 - Math.random() })
+].sort(function () {
+  return 0.5 - Math.random()
+})
 class IndexPage extends React.Component {
   render() {
     return (
       <Layout>
         <Seo title="Home" />
         <article className="home">
+            <div className="ribbon">
+              Available For Freelance Work Now!
+            </div>
           <h1 className="home__title">
             Shalom, <br />
             I'm Naaman
