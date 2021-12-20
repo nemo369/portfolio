@@ -75,7 +75,7 @@ module.exports = {
       },
       {
         name: "linkedin",
-        link: "https://linkedin.com/naamanf",
+        link: "https://www.linkedin.com/in/naamanf/",
         user: "naamanf",
       },
       {
