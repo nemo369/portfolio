@@ -14,7 +14,8 @@ const SideBar = (props) => {
         </Link>
         <Hamburger toggleHamburger={props.toggleHamburger} />
         <h4 className="sidebar__name tac">
-        <a href={resume} className="a" download={author}>          
+        {/* <a href={resume} className="a" download={author}>           */}
+        <a className="a" >          
           {author}
           </a>
         </h4>
