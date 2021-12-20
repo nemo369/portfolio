@@ -16,7 +16,7 @@ const ContactPage = () => {
           You can find me on social media:
               <Socials class="contact-page-scoials"/>
 
-          <div className="contact__email">
+          {/* <div className="contact__email">
             Or by mail:{" "}
             <a
               target="_blank"
@@ -28,7 +28,7 @@ const ContactPage = () => {
               ></span>
               nafrenkel@gmail.com
             </a>
-          </div>
+          </div> */}
         </div>
       </article>
     </Layout>
