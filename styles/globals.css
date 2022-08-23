@@ -1,26 +1,27 @@
-html,
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* the props */
+@import "open-props/postcss/style";
+@import "nemo.css";
+
+@import url(https://fonts.bunny.net/css?family=merriweather:400,400i|raleway:700);
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Raleway", sans-serif;
+  background-color: #f2f2f2;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+h1,
+h2,
+h3 {
+  font-family: "Merriweather", serif;
 }
 
-* {
-  box-sizing: border-box;
+.merriweather {
+  font-family: "Merriweather", serif;
+}
+.raleway {
+  font-family: "Raleway", sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
-}
