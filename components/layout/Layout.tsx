@@ -4,7 +4,7 @@ import { AppHeader } from './AppHeader';
 
 const Layout = function ({ children }: { children: ReactNode }) {
   const { pathname } = useRouter();
-  const withOutHeader = ['/404'];
+  const withOutHeader = [''];
   return (
     <section className="min-h-screen flex md:flex-row flex-col">
       {withOutHeader.includes(pathname) ? null : <AppHeader />}

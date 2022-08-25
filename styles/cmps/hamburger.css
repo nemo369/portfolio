@@ -1,0 +1,10 @@
+.Hamburger path{
+    transition: all 0.7s ease;
+}
+
+.Hamburger:hover .bottom{
+    transform: translateY(-3px)
+}
+.Hamburger:hover .top{
+    transform: rotate(-4deg);
+}

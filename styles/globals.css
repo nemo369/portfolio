@@ -4,7 +4,13 @@
 
 /* the props */
 @import "open-props/postcss/style";
+/* optional imports that use the props */
+@import "open-props/normalize";
+@import "open-props/buttons";
+
 @import "nemo.css";
+@import "cmps/hamburger.css";
+
 
 @import url(https://fonts.bunny.net/css?family=merriweather:400,400i|raleway:700);
 body {

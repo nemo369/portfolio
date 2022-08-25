@@ -3,8 +3,18 @@
     transition-delay: 0.3s;
     transform-origin: 70px 17px;
 }
+
+.nemo-logo svg{
+    fill: white;
+}
 .nemo-logo:hover {
     transform: rotate(-45deg) translateY(-50%);
+}
+.nemo-logo:hover .st1{
+    fill: #cb5858;
+}
+.nemo-logo:hover .st0{
+    opacity: 0;
 }
 .nemo-logo:hover #fire {
     opacity: 0;
@@ -31,17 +41,22 @@
         transform: scale(1.1);
     }
 }
+
 .logo .st0 {
+
     fill: #cb5858;
+    transition-delay: 0.3s;
+    transition: all 0.3s;
 }
-.logo .st1 {
+.logo .st2 {
     fill: #fff;
     stroke: #000;
     stroke-width: 0.25;
     stroke-miterlimit: 10;
 }
-.logo .st2 {
-    fill: #1d1d1d;
+.logo .st1 {
+    transition-delay: 0.7s;
+    fill: white;
 }
 .logo #fire {
     transition: opacity 0.2s;
